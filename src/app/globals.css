@@ -1,11 +1,11 @@
 :root {
-  --bg: #32292f;
-  --card: #ca895f;
-  --ink: #f7f2ef;
-  --muted: #777da7;
-  --accent: #f7f2ef;
-  --button: #a15e49;
-  --border: #b37858;
+  --bg: #EFECCA;
+  --card: #EFECCA;
+  --ink: #32292F;
+  --muted: #006989;
+  --accent: #32292F;
+  --button: #32292F;
+  --border: #247BA0;
 }
 
 * {
@@ -16,7 +16,7 @@ body {
   margin: 0;
   min-height: 100vh;
   color: var(--ink);
-  background: radial-gradient(circle at top right, #4e6e58 0%, transparent 35%), var(--bg);
+  background: radial-gradient(250vw 2000vh at 100% 0%, #CFA0A5 0%, transparent 55%), var(--bg);
   font-family: var(--font-body), sans-serif;
 }
 
@@ -207,4 +207,3 @@ a {
     grid-template-columns: 1fr;
   }
 }
-
