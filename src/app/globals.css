@@ -1,10 +1,11 @@
 :root {
-  --bg: #f4f1ea;
-  --card: #fffefb;
-  --ink: #1c1916;
-  --muted: #6e665d;
-  --accent: #9d3723;
-  --border: #d8cdbf;
+  --bg: #32292f;
+  --card: #ca895f;
+  --ink: #f7f2ef;
+  --muted: #777da7;
+  --accent: #f7f2ef;
+  --button: #a15e49;
+  --border: #b37858;
 }
 
 * {
@@ -15,8 +16,7 @@ body {
   margin: 0;
   min-height: 100vh;
   color: var(--ink);
-  background: radial-gradient(circle at top right, #f7dfb0, transparent 30%),
-    linear-gradient(180deg, #f3efe8 0%, #f8f4ed 100%);
+  background: radial-gradient(circle at top right, #4e6e58 0%, transparent 35%), var(--bg);
   font-family: var(--font-body), sans-serif;
 }
 
@@ -75,7 +75,7 @@ a {
 .filters button {
   border: 1px solid var(--border);
   border-radius: 0.55rem;
-  background: #fff;
+  background: var(--card);
   padding: 0.55rem 0.65rem;
   color: var(--ink);
 }
@@ -83,7 +83,7 @@ a {
 .filters button {
   align-self: end;
   cursor: pointer;
-  background: #30231d;
+  background: var(--button);
   color: #fff;
 }
 
@@ -130,7 +130,7 @@ a {
 }
 
 .chip.active {
-  background: #fff;
+  background: var(--card);
 }
 
 .chip.inactive {
