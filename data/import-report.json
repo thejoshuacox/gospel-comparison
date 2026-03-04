@@ -1,0 +1,15 @@
+{
+  "rowsParsed": 146,
+  "warnings": [
+    "Row 44 (Sermon on the Mount/Plain): non-standard matthew reference '5:1-7:29'",
+    "Row 44 (Sermon on the Mount/Plain): failed strict validation for matthew '5:1-7:29'",
+    "Row 72 (The woman caught in adultery): non-standard john reference '7:53-8:11'",
+    "Row 72 (The woman caught in adultery): failed strict validation for john '7:53-8:11'",
+    "Row 123 (The Last Supper): non-standard john reference '13:1-17:26'",
+    "Row 123 (The Last Supper): failed strict validation for john '13:1-17:26'",
+    "Row 130 (Jesus before Pilate): non-standard john reference '18:28-19:16'",
+    "Row 130 (Jesus before Pilate): failed strict validation for john '18:28-19:16'"
+  ],
+  "unresolvedRows": []
+}
+
