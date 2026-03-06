@@ -63,11 +63,16 @@ export function sortEvents(events: GospelEvent[], mode: SortMode): GospelEvent[]
     return [...events].sort((a, b) => a.order - b.order);
   }
 
-  return [...events].sort((a, b) => {
-    const aRef = parseReferenceStart(a.references[gospel]);
-    const bRef = parseReferenceStart(b.references[gospel]);
+  const primary = events
+    .filter((event) => Boolean(parseReferenceStart(event.references[gospel])))
+    .sort((a, b) => {
+      const aRef = parseReferenceStart(a.references[gospel]);
+      const bRef = parseReferenceStart(b.references[gospel]);
 
-    if (aRef && bRef) {
+      if (!aRef || !bRef) {
+        return a.order - b.order;
+      }
+
       if (aRef.chapter !== bRef.chapter) {
         return aRef.chapter - bRef.chapter;
       }
@@ -75,9 +80,41 @@ export function sortEvents(events: GospelEvent[], mode: SortMode): GospelEvent[]
         return aRef.verse - bRef.verse;
       }
       return a.order - b.order;
+    });
+
+  const secondary = events
+    .filter((event) => !parseReferenceStart(event.references[gospel]))
+    .sort((a, b) => a.order - b.order);
+
+  if (primary.length === 0 || secondary.length === 0) {
+    return [...primary, ...secondary];
+  }
+
+  const primaryByChronological = [...primary].sort((a, b) => a.order - b.order);
+  const primaryByChronologicalDesc = [...primaryByChronological].reverse();
+  const selectedIndexById = new Map(primary.map((event, index) => [event.id, index]));
+  const buckets: GospelEvent[][] = Array.from({ length: primary.length + 1 }, () => []);
+
+  for (const event of secondary) {
+    const previousChronologicalPrimary = primaryByChronologicalDesc.find(
+      (primaryEvent) => primaryEvent.order <= event.order,
+    );
+
+    if (!previousChronologicalPrimary) {
+      buckets[0].push(event);
+      continue;
     }
 
-    // Fallback for events absent from the chosen gospel.
-    return a.order - b.order;
-  });
+    const selectedIndex = selectedIndexById.get(previousChronologicalPrimary.id) ?? -1;
+    buckets[Math.max(0, selectedIndex + 1)].push(event);
+  }
+
+  const merged: GospelEvent[] = [];
+  for (let i = 0; i < primary.length; i += 1) {
+    merged.push(...buckets[i]);
+    merged.push(primary[i]);
+  }
+  merged.push(...buckets[primary.length]);
+
+  return merged;
 }

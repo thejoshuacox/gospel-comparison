@@ -203,6 +203,19 @@ a {
   font-size: 0.9rem;
 }
 
+.chapter-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: -0.2rem 0 0.8rem;
+  color: var(--muted);
+}
+
+.chapter-arrow {
+  min-width: 2rem;
+  padding: 0.25rem 0.35rem;
+}
+
 .passage-text {
   line-height: 1.45;
   margin: 0;

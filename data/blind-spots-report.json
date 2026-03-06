@@ -1,0 +1,751 @@
+{
+  "generatedAt": "2026-03-06T03:52:22.693Z",
+  "source": "data/gospel-events.json",
+  "summaries": [
+    {
+      "gospel": "matthew",
+      "totalVerses": 1071,
+      "coveredVerses": 982,
+      "coveragePercent": 91.69000933706816,
+      "missingVerses": 89,
+      "chaptersWithGaps": 9
+    },
+    {
+      "gospel": "mark",
+      "totalVerses": 678,
+      "coveredVerses": 629,
+      "coveragePercent": 92.77286135693215,
+      "missingVerses": 49,
+      "chaptersWithGaps": 7
+    },
+    {
+      "gospel": "luke",
+      "totalVerses": 1151,
+      "coveredVerses": 493,
+      "coveragePercent": 42.83231972198089,
+      "missingVerses": 658,
+      "chaptersWithGaps": 21
+    },
+    {
+      "gospel": "john",
+      "totalVerses": 879,
+      "coveredVerses": 876,
+      "coveragePercent": 99.65870307167235,
+      "missingVerses": 3,
+      "chaptersWithGaps": 1
+    }
+  ],
+  "detail": {
+    "matthew": [
+      {
+        "chapter": 1,
+        "verseCount": 25,
+        "missingRanges": []
+      },
+      {
+        "chapter": 2,
+        "verseCount": 23,
+        "missingRanges": []
+      },
+      {
+        "chapter": 3,
+        "verseCount": 17,
+        "missingRanges": []
+      },
+      {
+        "chapter": 4,
+        "verseCount": 25,
+        "missingRanges": [
+          {
+            "startVerse": 23,
+            "endVerse": 25,
+            "count": 3
+          }
+        ]
+      },
+      {
+        "chapter": 5,
+        "verseCount": 48,
+        "missingRanges": []
+      },
+      {
+        "chapter": 6,
+        "verseCount": 34,
+        "missingRanges": []
+      },
+      {
+        "chapter": 7,
+        "verseCount": 29,
+        "missingRanges": []
+      },
+      {
+        "chapter": 8,
+        "verseCount": 34,
+        "missingRanges": [
+          {
+            "startVerse": 5,
+            "endVerse": 13,
+            "count": 9
+          },
+          {
+            "startVerse": 18,
+            "endVerse": 22,
+            "count": 5
+          }
+        ]
+      },
+      {
+        "chapter": 9,
+        "verseCount": 38,
+        "missingRanges": [
+          {
+            "startVerse": 27,
+            "endVerse": 38,
+            "count": 12
+          }
+        ]
+      },
+      {
+        "chapter": 10,
+        "verseCount": 42,
+        "missingRanges": []
+      },
+      {
+        "chapter": 11,
+        "verseCount": 30,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 30,
+            "count": 30
+          }
+        ]
+      },
+      {
+        "chapter": 12,
+        "verseCount": 50,
+        "missingRanges": [
+          {
+            "startVerse": 38,
+            "endVerse": 45,
+            "count": 8
+          }
+        ]
+      },
+      {
+        "chapter": 13,
+        "verseCount": 58,
+        "missingRanges": [
+          {
+            "startVerse": 34,
+            "endVerse": 35,
+            "count": 2
+          }
+        ]
+      },
+      {
+        "chapter": 14,
+        "verseCount": 36,
+        "missingRanges": [
+          {
+            "startVerse": 34,
+            "endVerse": 36,
+            "count": 3
+          }
+        ]
+      },
+      {
+        "chapter": 15,
+        "verseCount": 39,
+        "missingRanges": []
+      },
+      {
+        "chapter": 16,
+        "verseCount": 28,
+        "missingRanges": [
+          {
+            "startVerse": 24,
+            "endVerse": 28,
+            "count": 5
+          }
+        ]
+      },
+      {
+        "chapter": 17,
+        "verseCount": 27,
+        "missingRanges": []
+      },
+      {
+        "chapter": 18,
+        "verseCount": 35,
+        "missingRanges": []
+      },
+      {
+        "chapter": 19,
+        "verseCount": 30,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 12,
+            "count": 12
+          }
+        ]
+      },
+      {
+        "chapter": 20,
+        "verseCount": 34,
+        "missingRanges": []
+      },
+      {
+        "chapter": 21,
+        "verseCount": 46,
+        "missingRanges": []
+      },
+      {
+        "chapter": 22,
+        "verseCount": 46,
+        "missingRanges": []
+      },
+      {
+        "chapter": 23,
+        "verseCount": 39,
+        "missingRanges": []
+      },
+      {
+        "chapter": 24,
+        "verseCount": 51,
+        "missingRanges": []
+      },
+      {
+        "chapter": 25,
+        "verseCount": 46,
+        "missingRanges": []
+      },
+      {
+        "chapter": 26,
+        "verseCount": 75,
+        "missingRanges": []
+      },
+      {
+        "chapter": 27,
+        "verseCount": 66,
+        "missingRanges": []
+      },
+      {
+        "chapter": 28,
+        "verseCount": 20,
+        "missingRanges": []
+      }
+    ],
+    "mark": [
+      {
+        "chapter": 1,
+        "verseCount": 45,
+        "missingRanges": []
+      },
+      {
+        "chapter": 2,
+        "verseCount": 28,
+        "missingRanges": []
+      },
+      {
+        "chapter": 3,
+        "verseCount": 35,
+        "missingRanges": []
+      },
+      {
+        "chapter": 4,
+        "verseCount": 41,
+        "missingRanges": [
+          {
+            "startVerse": 26,
+            "endVerse": 29,
+            "count": 4
+          }
+        ]
+      },
+      {
+        "chapter": 5,
+        "verseCount": 43,
+        "missingRanges": []
+      },
+      {
+        "chapter": 6,
+        "verseCount": 56,
+        "missingRanges": []
+      },
+      {
+        "chapter": 7,
+        "verseCount": 37,
+        "missingRanges": [
+          {
+            "startVerse": 31,
+            "endVerse": 37,
+            "count": 7
+          }
+        ]
+      },
+      {
+        "chapter": 8,
+        "verseCount": 38,
+        "missingRanges": [
+          {
+            "startVerse": 22,
+            "endVerse": 26,
+            "count": 5
+          },
+          {
+            "startVerse": 34,
+            "endVerse": 38,
+            "count": 5
+          }
+        ]
+      },
+      {
+        "chapter": 9,
+        "verseCount": 50,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 1,
+            "count": 1
+          },
+          {
+            "startVerse": 38,
+            "endVerse": 41,
+            "count": 4
+          }
+        ]
+      },
+      {
+        "chapter": 10,
+        "verseCount": 52,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 12,
+            "count": 12
+          }
+        ]
+      },
+      {
+        "chapter": 11,
+        "verseCount": 33,
+        "missingRanges": [
+          {
+            "startVerse": 20,
+            "endVerse": 26,
+            "count": 7
+          }
+        ]
+      },
+      {
+        "chapter": 12,
+        "verseCount": 44,
+        "missingRanges": [
+          {
+            "startVerse": 41,
+            "endVerse": 44,
+            "count": 4
+          }
+        ]
+      },
+      {
+        "chapter": 13,
+        "verseCount": 37,
+        "missingRanges": []
+      },
+      {
+        "chapter": 14,
+        "verseCount": 72,
+        "missingRanges": []
+      },
+      {
+        "chapter": 15,
+        "verseCount": 47,
+        "missingRanges": []
+      },
+      {
+        "chapter": 16,
+        "verseCount": 20,
+        "missingRanges": []
+      }
+    ],
+    "luke": [
+      {
+        "chapter": 1,
+        "verseCount": 80,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 4,
+            "count": 4
+          }
+        ]
+      },
+      {
+        "chapter": 2,
+        "verseCount": 52,
+        "missingRanges": [
+          {
+            "startVerse": 21,
+            "endVerse": 21,
+            "count": 1
+          },
+          {
+            "startVerse": 39,
+            "endVerse": 40,
+            "count": 2
+          }
+        ]
+      },
+      {
+        "chapter": 3,
+        "verseCount": 38,
+        "missingRanges": []
+      },
+      {
+        "chapter": 4,
+        "verseCount": 44,
+        "missingRanges": [
+          {
+            "startVerse": 31,
+            "endVerse": 44,
+            "count": 14
+          }
+        ]
+      },
+      {
+        "chapter": 5,
+        "verseCount": 39,
+        "missingRanges": [
+          {
+            "startVerse": 12,
+            "endVerse": 39,
+            "count": 28
+          }
+        ]
+      },
+      {
+        "chapter": 6,
+        "verseCount": 49,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 16,
+            "count": 16
+          }
+        ]
+      },
+      {
+        "chapter": 7,
+        "verseCount": 50,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 50,
+            "count": 50
+          }
+        ]
+      },
+      {
+        "chapter": 8,
+        "verseCount": 56,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 56,
+            "count": 56
+          }
+        ]
+      },
+      {
+        "chapter": 9,
+        "verseCount": 62,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 9,
+            "count": 9
+          },
+          {
+            "startVerse": 21,
+            "endVerse": 27,
+            "count": 7
+          },
+          {
+            "startVerse": 37,
+            "endVerse": 62,
+            "count": 26
+          }
+        ]
+      },
+      {
+        "chapter": 10,
+        "verseCount": 42,
+        "missingRanges": [
+          {
+            "startVerse": 38,
+            "endVerse": 42,
+            "count": 5
+          }
+        ]
+      },
+      {
+        "chapter": 11,
+        "verseCount": 54,
+        "missingRanges": [
+          {
+            "startVerse": 5,
+            "endVerse": 54,
+            "count": 50
+          }
+        ]
+      },
+      {
+        "chapter": 12,
+        "verseCount": 59,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 59,
+            "count": 59
+          }
+        ]
+      },
+      {
+        "chapter": 13,
+        "verseCount": 35,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 35,
+            "count": 35
+          }
+        ]
+      },
+      {
+        "chapter": 14,
+        "verseCount": 35,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 35,
+            "count": 35
+          }
+        ]
+      },
+      {
+        "chapter": 15,
+        "verseCount": 32,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 32,
+            "count": 32
+          }
+        ]
+      },
+      {
+        "chapter": 16,
+        "verseCount": 31,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 31,
+            "count": 31
+          }
+        ]
+      },
+      {
+        "chapter": 17,
+        "verseCount": 37,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 37,
+            "count": 37
+          }
+        ]
+      },
+      {
+        "chapter": 18,
+        "verseCount": 43,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 43,
+            "count": 43
+          }
+        ]
+      },
+      {
+        "chapter": 19,
+        "verseCount": 48,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 27,
+            "count": 27
+          }
+        ]
+      },
+      {
+        "chapter": 20,
+        "verseCount": 47,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 47,
+            "count": 47
+          }
+        ]
+      },
+      {
+        "chapter": 21,
+        "verseCount": 38,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 38,
+            "count": 38
+          }
+        ]
+      },
+      {
+        "chapter": 22,
+        "verseCount": 71,
+        "missingRanges": [
+          {
+            "startVerse": 1,
+            "endVerse": 6,
+            "count": 6
+          }
+        ]
+      },
+      {
+        "chapter": 23,
+        "verseCount": 56,
+        "missingRanges": []
+      },
+      {
+        "chapter": 24,
+        "verseCount": 53,
+        "missingRanges": []
+      }
+    ],
+    "john": [
+      {
+        "chapter": 1,
+        "verseCount": 51,
+        "missingRanges": []
+      },
+      {
+        "chapter": 2,
+        "verseCount": 25,
+        "missingRanges": [
+          {
+            "startVerse": 23,
+            "endVerse": 25,
+            "count": 3
+          }
+        ]
+      },
+      {
+        "chapter": 3,
+        "verseCount": 36,
+        "missingRanges": []
+      },
+      {
+        "chapter": 4,
+        "verseCount": 54,
+        "missingRanges": []
+      },
+      {
+        "chapter": 5,
+        "verseCount": 47,
+        "missingRanges": []
+      },
+      {
+        "chapter": 6,
+        "verseCount": 71,
+        "missingRanges": []
+      },
+      {
+        "chapter": 7,
+        "verseCount": 53,
+        "missingRanges": []
+      },
+      {
+        "chapter": 8,
+        "verseCount": 59,
+        "missingRanges": []
+      },
+      {
+        "chapter": 9,
+        "verseCount": 41,
+        "missingRanges": []
+      },
+      {
+        "chapter": 10,
+        "verseCount": 42,
+        "missingRanges": []
+      },
+      {
+        "chapter": 11,
+        "verseCount": 57,
+        "missingRanges": []
+      },
+      {
+        "chapter": 12,
+        "verseCount": 50,
+        "missingRanges": []
+      },
+      {
+        "chapter": 13,
+        "verseCount": 38,
+        "missingRanges": []
+      },
+      {
+        "chapter": 14,
+        "verseCount": 31,
+        "missingRanges": []
+      },
+      {
+        "chapter": 15,
+        "verseCount": 27,
+        "missingRanges": []
+      },
+      {
+        "chapter": 16,
+        "verseCount": 33,
+        "missingRanges": []
+      },
+      {
+        "chapter": 17,
+        "verseCount": 26,
+        "missingRanges": []
+      },
+      {
+        "chapter": 18,
+        "verseCount": 40,
+        "missingRanges": []
+      },
+      {
+        "chapter": 19,
+        "verseCount": 42,
+        "missingRanges": []
+      },
+      {
+        "chapter": 20,
+        "verseCount": 31,
+        "missingRanges": []
+      },
+      {
+        "chapter": 21,
+        "verseCount": 25,
+        "missingRanges": []
+      }
+    ]
+  }
+}

@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { DEFAULT_TRANSLATION, GOSPEL_LABELS, GOSPEL_ORDER, SUPPORTED_TRANSLATIONS } from "@/lib/constants";
 import { filterEventsByIncludeExclude, sortEvents, type SortMode } from "@/lib/event-selection";
-import type { ComparePayload, GospelEvent, GospelKey } from "@/types/gospel";
+import { parseMultiChapterReference } from "@/lib/reference-range";
+import type { ComparePayload, GospelEvent, GospelKey, PassagePayload } from "@/types/gospel";
 
 type Props = {
   events: GospelEvent[];
@@ -12,7 +13,6 @@ type Props = {
 type GospelSelection = Record<GospelKey, boolean>;
 
 const SORT_OPTIONS: Array<{ value: SortMode; label: string }> = [
-  { value: "chronological", label: "Chronological" },
   { value: "markan", label: "Markan" },
   { value: "matthean", label: "Matthean" },
   { value: "lukan", label: "Lukan" },
@@ -26,10 +26,30 @@ const ALL_SELECTED: GospelSelection = {
   john: true,
 };
 
+type ChapterPassageState = {
+  loading: boolean;
+  error: string | null;
+  passage: PassagePayload | null;
+};
+
+function getChapterLabel(reference: string | null): string | null {
+  if (!reference) {
+    return null;
+  }
+
+  const cleaned = reference.replace(/[\[\]]/g, "");
+  const match = cleaned.match(/(\d+):/);
+  if (!match) {
+    return null;
+  }
+
+  return match[1];
+}
+
 export function ParallelReader({ events }: Props) {
   const [isPickerOpen, setIsPickerOpen] = useState(false);
   const [translation, setTranslation] = useState(DEFAULT_TRANSLATION);
-  const [sortMode, setSortMode] = useState<SortMode>("chronological");
+  const [sortMode, setSortMode] = useState<SortMode>("markan");
   const [includedGospels, setIncludedGospels] = useState<GospelSelection>(ALL_SELECTED);
   const [excludedGospels, setExcludedGospels] = useState<GospelSelection>({
     matthew: false,
@@ -41,6 +61,19 @@ export function ParallelReader({ events }: Props) {
   const [payload, setPayload] = useState<ComparePayload | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [loadError, setLoadError] = useState<string | null>(null);
+  const [chapterIndexByGospel, setChapterIndexByGospel] = useState<Record<GospelKey, number>>({
+    matthew: 1,
+    mark: 1,
+    luke: 1,
+    john: 1,
+  });
+  const [chapterPassageByGospel, setChapterPassageByGospel] = useState<Record<GospelKey, ChapterPassageState>>({
+    matthew: { loading: false, error: null, passage: null },
+    mark: { loading: false, error: null, passage: null },
+    luke: { loading: false, error: null, passage: null },
+    john: { loading: false, error: null, passage: null },
+  });
+  const optionRefs = useRef<Record<string, HTMLButtonElement | null>>({});
 
   const includedList = useMemo(
     () => GOSPEL_ORDER.filter((gospel) => includedGospels[gospel]),
@@ -122,6 +155,109 @@ export function ParallelReader({ events }: Props) {
     };
   }, [selectedEventId, translation]);
 
+  const multiChapterByGospel = useMemo(() => {
+    const result: Partial<Record<GospelKey, ReturnType<typeof parseMultiChapterReference>>> = {};
+    for (const gospel of GOSPEL_ORDER) {
+      const column = payload?.columns.find((item) => item.gospel === gospel);
+      result[gospel] = parseMultiChapterReference(column?.reference ?? null);
+    }
+    return result;
+  }, [payload]);
+
+  useEffect(() => {
+    setChapterIndexByGospel((current) => {
+      const next = { ...current };
+      for (const gospel of GOSPEL_ORDER) {
+        const range = multiChapterByGospel[gospel];
+        if (range) {
+          next[gospel] = range.startChapter;
+        }
+      }
+      return next;
+    });
+  }, [selectedEventId, multiChapterByGospel]);
+
+  useEffect(() => {
+    let active = true;
+
+    async function loadChapters(): Promise<void> {
+      for (const gospel of GOSPEL_ORDER) {
+        const range = multiChapterByGospel[gospel];
+        if (!range) {
+          continue;
+        }
+
+        const currentChapter = chapterIndexByGospel[gospel];
+        if (!currentChapter || currentChapter < range.startChapter || currentChapter > range.endChapter) {
+          continue;
+        }
+
+        setChapterPassageByGospel((current) => ({
+          ...current,
+          [gospel]: {
+            loading: true,
+            error: null,
+            passage: current[gospel].passage,
+          },
+        }));
+
+        try {
+          const response = await fetch(
+            `/api/passage?ref=${encodeURIComponent(`${range.book} ${currentChapter}`)}&translation=${encodeURIComponent(translation)}`,
+          );
+          if (!response.ok) {
+            throw new Error(`Request failed (${response.status})`);
+          }
+
+          const passage = (await response.json()) as PassagePayload;
+          if (!active) {
+            return;
+          }
+
+          setChapterPassageByGospel((current) => ({
+            ...current,
+            [gospel]: {
+              loading: false,
+              error: null,
+              passage,
+            },
+          }));
+        } catch (error) {
+          if (!active) {
+            return;
+          }
+
+          setChapterPassageByGospel((current) => ({
+            ...current,
+            [gospel]: {
+              loading: false,
+              error: error instanceof Error ? error.message : "Could not load chapter.",
+              passage: null,
+            },
+          }));
+        }
+      }
+    }
+
+    void loadChapters();
+
+    return () => {
+      active = false;
+    };
+  }, [multiChapterByGospel, chapterIndexByGospel, translation]);
+
+  useEffect(() => {
+    if (!isPickerOpen || !selectedEventId) {
+      return;
+    }
+
+    const selectedOption = optionRefs.current[selectedEventId];
+    selectedOption?.scrollIntoView({
+      block: "center",
+      behavior: "auto",
+    });
+  }, [isPickerOpen, selectedEventId, filteredEvents]);
+
   const selectedTitle = payload?.event.title ?? filteredEvents.find((event) => event.id === selectedEventId)?.title;
 
   return (
@@ -174,19 +310,81 @@ export function ParallelReader({ events }: Props) {
       <section className="compare-grid">
         {GOSPEL_ORDER.map((gospel) => {
           const column = payload?.columns.find((item) => item.gospel === gospel);
+          const range = multiChapterByGospel[gospel];
+          const chapterState = chapterPassageByGospel[gospel];
+          const currentChapter = chapterIndexByGospel[gospel];
+          const isMultiChapter = Boolean(range);
+
+          let displayedText = column?.passage?.text ?? null;
+          if (range && chapterState.passage) {
+            const verses = chapterState.passage.verses.filter((verse) => {
+              if (verse.chapter !== currentChapter) {
+                return false;
+              }
+
+              if (currentChapter === range.startChapter && verse.verse < range.startVerse) {
+                return false;
+              }
+
+              if (currentChapter === range.endChapter && verse.verse > range.endVerse) {
+                return false;
+              }
+
+              return true;
+            });
+
+            displayedText = verses.map((verse) => verse.text.trim()).join(" ").trim() || chapterState.passage.text;
+          }
 
           return (
             <article key={gospel} className="compare-card">
               <h2>{GOSPEL_LABELS[gospel]}</h2>
               <p className="reference">{column?.reference ?? "No parallel passage"}</p>
+              {range ? (
+                <div className="chapter-nav">
+                  <button
+                    type="button"
+                    className="ghost-button chapter-arrow"
+                    onClick={() =>
+                      setChapterIndexByGospel((current) => ({
+                        ...current,
+                        [gospel]: Math.max(range.startChapter, current[gospel] - 1),
+                      }))
+                    }
+                    disabled={currentChapter <= range.startChapter}
+                    aria-label={`Previous chapter in ${GOSPEL_LABELS[gospel]}`}
+                  >
+                    &lt;
+                  </button>
+                  <span>Chapter {currentChapter}</span>
+                  <button
+                    type="button"
+                    className="ghost-button chapter-arrow"
+                    onClick={() =>
+                      setChapterIndexByGospel((current) => ({
+                        ...current,
+                        [gospel]: Math.min(range.endChapter, current[gospel] + 1),
+                      }))
+                    }
+                    disabled={currentChapter >= range.endChapter}
+                    aria-label={`Next chapter in ${GOSPEL_LABELS[gospel]}`}
+                  >
+                    &gt;
+                  </button>
+                </div>
+              ) : null}
 
               {isLoading ? <p className="empty">Loading passage...</p> : null}
+              {!isLoading && isMultiChapter && chapterState.loading ? <p className="empty">Loading chapter...</p> : null}
+              {!isLoading && isMultiChapter && chapterState.error ? (
+                <p className="error">Could not load chapter: {chapterState.error}</p>
+              ) : null}
               {!isLoading && column?.status === "missing" ? <p className="empty">No parallel passage.</p> : null}
-              {!isLoading && column?.status === "error" ? (
+              {!isLoading && !isMultiChapter && column?.status === "error" ? (
                 <p className="error">Could not load passage: {column.error}</p>
               ) : null}
-              {!isLoading && column?.status === "ok" && column.passage ? (
-                <p className="passage-text">{column.passage.text}</p>
+              {!isLoading && (column?.status === "ok" || isMultiChapter) && displayedText ? (
+                <p className="passage-text">{displayedText}</p>
               ) : null}
               {!isLoading && !column && !payload ? <p className="empty">Choose an event to load passages.</p> : null}
             </article>
@@ -275,6 +473,9 @@ export function ParallelReader({ events }: Props) {
                   <button
                     type="button"
                     className={`event-option ${event.id === selectedEventId ? "selected" : ""}`}
+                    ref={(element) => {
+                      optionRefs.current[event.id] = element;
+                    }}
                     onClick={() => {
                       setSelectedEventId(event.id);
                       setIsPickerOpen(false);
@@ -282,9 +483,16 @@ export function ParallelReader({ events }: Props) {
                   >
                     <span>{event.title}</span>
                     <small>
-                      {GOSPEL_ORDER.filter((gospel) => event.references[gospel]).map((gospel) => GOSPEL_LABELS[gospel]).join(
-                        ", ",
-                      )}
+                      {GOSPEL_ORDER.map((gospel) => {
+                        const chapter = getChapterLabel(event.references[gospel]);
+                        if (!chapter) {
+                          return null;
+                        }
+
+                        return `${GOSPEL_LABELS[gospel]} ${chapter}`;
+                      })
+                        .filter(Boolean)
+                        .join(", ")}
                     </small>
                   </button>
                 </li>

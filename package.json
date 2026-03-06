@@ -10,7 +10,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
-    "import:data": "tsx scripts/import-ecatholic-gospels.ts"
+    "import:data": "tsx scripts/import-ecatholic-gospels.ts",
+    "analyze:blindspots": "tsx scripts/analyze-blind-spots.ts"
   },
   "dependencies": {
     "cheerio": "^1.2.0",

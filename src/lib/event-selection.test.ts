@@ -61,6 +61,11 @@ describe("event selection", () => {
 
   it("sorts by chosen gospel reference order", () => {
     const sorted = sortEvents(events, "lukan");
-    expect(sorted.map((event) => event.id)).toEqual(["c", "a", "b", "d"]);
+    expect(sorted.map((event) => event.id)).toEqual(["c", "d", "a", "b"]);
+  });
+
+  it("keeps selected-gospel events ordered even when mixed with non-selected events", () => {
+    const sorted = sortEvents(events, "markan");
+    expect(sorted.map((event) => event.id)).toEqual(["a", "b", "c", "d"]);
   });
 });

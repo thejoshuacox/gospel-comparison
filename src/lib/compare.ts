@@ -2,6 +2,7 @@ import { type CompareColumn, type ComparePayload, GOSPEL_KEYS } from "@/types/go
 import { getEventById } from "@/lib/events";
 import { getPassage } from "@/lib/bible-api";
 import { toCanonicalReference } from "@/lib/references";
+import { parseMultiChapterReference } from "@/lib/reference-range";
 
 export async function getComparePayload(eventId: string, translation: string): Promise<ComparePayload | null> {
   const event = getEventById(eventId);
@@ -19,6 +20,17 @@ export async function getComparePayload(eventId: string, translation: string): P
           gospel,
           reference: null,
           status: "missing",
+          passage: null,
+          error: null,
+        };
+      }
+
+      const multiReference = parseMultiChapterReference(reference);
+      if (multiReference) {
+        return {
+          gospel,
+          reference,
+          status: "ok",
           passage: null,
           error: null,
         };
