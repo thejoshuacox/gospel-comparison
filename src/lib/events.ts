@@ -2,6 +2,8 @@ import { z } from "zod";
 import { GOSPEL_KEYS, type GospelEvent } from "@/types/gospel";
 import { SOURCE_URL, PARSER_VERSION } from "@/lib/constants";
 import eventsJson from "../../data/gospel-events.json";
+import manualEventsJson from "../../data/gospel-events.manual.json";
+import { mergeEvents, parseManualEventsFile } from "@/lib/manual-events";
 
 const gospelRefsSchema = z.object({
   matthew: z.string().nullable(),
@@ -10,19 +12,12 @@ const gospelRefsSchema = z.object({
   john: z.string().nullable(),
 });
 
-const sourceSchema = z.object({
-  sourceUrl: z.string().url(),
-  importedAt: z.string(),
-  parserVersion: z.string(),
-});
-
 const gospelEventSchema = z.object({
   id: z.string().min(1),
-  section: z.string(),
   title: z.string().min(1),
+  location: z.string().nullable(),
   order: z.number().int().positive(),
   references: gospelRefsSchema,
-  source: sourceSchema,
 });
 
 const eventsSchema = z.array(gospelEventSchema);
@@ -30,21 +25,15 @@ const eventsSchema = z.array(gospelEventSchema);
 const fallbackData: GospelEvent[] = [];
 
 const parsed = eventsSchema.safeParse(eventsJson ?? fallbackData);
+const manualFile = parseManualEventsFile(manualEventsJson);
 
-const DATASET = parsed.success ? parsed.data : fallbackData;
+const DATASET = parsed.success ? mergeEvents(parsed.data, manualFile) : fallbackData;
 
 export type EventQuery = {
   q?: string;
-  section?: string;
   limit?: number;
   offset?: number;
 };
-
-export function listSections(): string[] {
-  return [...new Set(DATASET.map((event) => event.section).filter(Boolean))].sort((a, b) =>
-    a.localeCompare(b),
-  );
-}
 
 export function listEvents(query: EventQuery = {}): { total: number; items: GospelEvent[] } {
   let rows = [...DATASET];
@@ -56,12 +45,12 @@ export function listEvents(query: EventQuery = {}): { total: number; items: Gosp
         return true;
       }
 
+      if (event.location?.toLowerCase().includes(q)) {
+        return true;
+      }
+
       return GOSPEL_KEYS.some((key) => event.references[key]?.toLowerCase().includes(q));
     });
-  }
-
-  if (query.section) {
-    rows = rows.filter((event) => event.section.toLowerCase() === query.section?.toLowerCase());
   }
 
   const total = rows.length;
@@ -78,10 +67,17 @@ export function getEventById(id: string): GospelEvent | undefined {
   return DATASET.find((event) => event.id === id);
 }
 
-export function sourceInfo(): { sourceUrl: string; parserVersion: string } {
+export function sourceInfo(): {
+  sourceUrl: string;
+  parserVersion: string;
+  importedDataPath: string;
+  manualOverlayPath: string;
+} {
   return {
     sourceUrl: SOURCE_URL,
     parserVersion: PARSER_VERSION,
+    importedDataPath: "data/gospel-events.json",
+    manualOverlayPath: "data/gospel-events.manual.json",
   };
 }
 

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-06T03:52:22.693Z",
-  "source": "data/gospel-events.json",
+  "generatedAt": "2026-03-12T02:24:42.932Z",
+  "source": "merged(data/gospel-events.json + data/gospel-events.manual.json)",
   "summaries": [
     {
       "gospel": "matthew",

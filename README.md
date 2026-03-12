@@ -33,6 +33,7 @@ Then open `http://localhost:3000`.
 The dataset is generated and stored in:
 
 - `data/gospel-events.json`
+- `data/gospel-events.manual.json`
 - `data/import-report.json`
 
 Rebuild data at any time with:
@@ -41,12 +42,38 @@ Rebuild data at any time with:
 npm run import:data
 ```
 
+Recommended workflow:
+
+- Treat `data/gospel-events.json` as imported source data. Do not hand-edit it.
+- Put all manual renames, reference corrections, hides, and new events in `data/gospel-events.manual.json`.
+- The app and blind-spot analyzer merge both files at runtime.
+
 ## Quality Checks
 
 ```bash
 npm run lint
 npm test
 npm run build
+```
+
+## Temporary Gap Triage Mode
+
+Use this internal route to categorize missing passage ranges:
+
+```bash
+$env:NEXT_PUBLIC_ENABLE_TRIAGE="true"
+npm run dev
+```
+
+Then open `http://localhost:3000/triage`.
+
+- Export categorized work with the `Export JSON` button.
+- Keep the exported file at [gap-triage-export.json](C:/Users/joshu/Desktop/Projects/GospelComparison/data/gap-triage-export.json) so `/triage` can restore from it on the next run.
+- Keep `NEXT_PUBLIC_ENABLE_TRIAGE` unset/false in production so `/triage` returns 404.
+- Recompute blind spots with:
+
+```bash
+npm run analyze:blindspots
 ```
 
 ## Notes

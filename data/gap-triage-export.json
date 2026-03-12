@@ -1,0 +1,584 @@
+{
+  "exportedAt": "2026-03-06T05:42:55.447Z",
+  "source": "data/gospel-events.json",
+  "generatedAt": "2026-03-06T03:52:22.693Z",
+  "totals": {
+    "totalGaps": 44,
+    "done": 1,
+    "uncategorized": 40
+  },
+  "gaps": [
+    {
+      "id": "matthew:4:23-25",
+      "gospel": "matthew",
+      "chapter": 4,
+      "startVerse": 23,
+      "endVerse": 25,
+      "count": 3,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "matthew:8:5-13",
+      "gospel": "matthew",
+      "chapter": 8,
+      "startVerse": 5,
+      "endVerse": 13,
+      "count": 9,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "matthew:8:18-22",
+      "gospel": "matthew",
+      "chapter": 8,
+      "startVerse": 18,
+      "endVerse": 22,
+      "count": 5,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "matthew:9:27-38",
+      "gospel": "matthew",
+      "chapter": 9,
+      "startVerse": 27,
+      "endVerse": 38,
+      "count": 12,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "matthew:11:1-30",
+      "gospel": "matthew",
+      "chapter": 11,
+      "startVerse": 1,
+      "endVerse": 30,
+      "count": 30,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "matthew:12:38-45",
+      "gospel": "matthew",
+      "chapter": 12,
+      "startVerse": 38,
+      "endVerse": 45,
+      "count": 8,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "matthew:13:34-35",
+      "gospel": "matthew",
+      "chapter": 13,
+      "startVerse": 34,
+      "endVerse": 35,
+      "count": 2,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "matthew:14:34-36",
+      "gospel": "matthew",
+      "chapter": 14,
+      "startVerse": 34,
+      "endVerse": 36,
+      "count": 3,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "matthew:16:24-28",
+      "gospel": "matthew",
+      "chapter": 16,
+      "startVerse": 24,
+      "endVerse": 28,
+      "count": 5,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "matthew:19:1-12",
+      "gospel": "matthew",
+      "chapter": 19,
+      "startVerse": 1,
+      "endVerse": 12,
+      "count": 12,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "mark:4:26-29",
+      "gospel": "mark",
+      "chapter": 4,
+      "startVerse": 26,
+      "endVerse": 29,
+      "count": 4,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "mark:7:31-37",
+      "gospel": "mark",
+      "chapter": 7,
+      "startVerse": 31,
+      "endVerse": 37,
+      "count": 7,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "mark:8:22-26",
+      "gospel": "mark",
+      "chapter": 8,
+      "startVerse": 22,
+      "endVerse": 26,
+      "count": 5,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "mark:8:34-38",
+      "gospel": "mark",
+      "chapter": 8,
+      "startVerse": 34,
+      "endVerse": 38,
+      "count": 5,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "mark:9:1-1",
+      "gospel": "mark",
+      "chapter": 9,
+      "startVerse": 1,
+      "endVerse": 1,
+      "count": 1,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "mark:9:38-41",
+      "gospel": "mark",
+      "chapter": 9,
+      "startVerse": 38,
+      "endVerse": 41,
+      "count": 4,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "mark:10:1-12",
+      "gospel": "mark",
+      "chapter": 10,
+      "startVerse": 1,
+      "endVerse": 12,
+      "count": 12,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "mark:11:20-26",
+      "gospel": "mark",
+      "chapter": 11,
+      "startVerse": 20,
+      "endVerse": 26,
+      "count": 7,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "mark:12:41-44",
+      "gospel": "mark",
+      "chapter": 12,
+      "startVerse": 41,
+      "endVerse": 44,
+      "count": 4,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:1:1-4",
+      "gospel": "luke",
+      "chapter": 1,
+      "startVerse": 1,
+      "endVerse": 4,
+      "count": 4,
+      "assignment": {
+        "category": "Need New Event",
+        "status": "todo",
+        "notes": "Dedication"
+      }
+    },
+    {
+      "id": "luke:2:21-21",
+      "gospel": "luke",
+      "chapter": 2,
+      "startVerse": 21,
+      "endVerse": 21,
+      "count": 1,
+      "assignment": {
+        "category": "Need New Event",
+        "status": "todo",
+        "notes": "Jesus is Named; Add Matthew 1:25"
+      }
+    },
+    {
+      "id": "luke:2:39-40",
+      "gospel": "luke",
+      "chapter": 2,
+      "startVerse": 39,
+      "endVerse": 40,
+      "count": 2,
+      "assignment": {
+        "category": "Merge Into Existing Event",
+        "status": "todo",
+        "notes": "Return from Egypt; change to Journey to Nazareth"
+      }
+    },
+    {
+      "id": "luke:4:31-44",
+      "gospel": "luke",
+      "chapter": 4,
+      "startVerse": 31,
+      "endVerse": 44,
+      "count": 14,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:5:12-39",
+      "gospel": "luke",
+      "chapter": 5,
+      "startVerse": 12,
+      "endVerse": 39,
+      "count": 28,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:6:1-16",
+      "gospel": "luke",
+      "chapter": 6,
+      "startVerse": 1,
+      "endVerse": 16,
+      "count": 16,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:7:1-50",
+      "gospel": "luke",
+      "chapter": 7,
+      "startVerse": 1,
+      "endVerse": 50,
+      "count": 50,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:8:1-56",
+      "gospel": "luke",
+      "chapter": 8,
+      "startVerse": 1,
+      "endVerse": 56,
+      "count": 56,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:9:1-9",
+      "gospel": "luke",
+      "chapter": 9,
+      "startVerse": 1,
+      "endVerse": 9,
+      "count": 9,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:9:21-27",
+      "gospel": "luke",
+      "chapter": 9,
+      "startVerse": 21,
+      "endVerse": 27,
+      "count": 7,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:9:37-62",
+      "gospel": "luke",
+      "chapter": 9,
+      "startVerse": 37,
+      "endVerse": 62,
+      "count": 26,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:10:38-42",
+      "gospel": "luke",
+      "chapter": 10,
+      "startVerse": 38,
+      "endVerse": 42,
+      "count": 5,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:11:5-54",
+      "gospel": "luke",
+      "chapter": 11,
+      "startVerse": 5,
+      "endVerse": 54,
+      "count": 50,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:12:1-59",
+      "gospel": "luke",
+      "chapter": 12,
+      "startVerse": 1,
+      "endVerse": 59,
+      "count": 59,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:13:1-35",
+      "gospel": "luke",
+      "chapter": 13,
+      "startVerse": 1,
+      "endVerse": 35,
+      "count": 35,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:14:1-35",
+      "gospel": "luke",
+      "chapter": 14,
+      "startVerse": 1,
+      "endVerse": 35,
+      "count": 35,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:15:1-32",
+      "gospel": "luke",
+      "chapter": 15,
+      "startVerse": 1,
+      "endVerse": 32,
+      "count": 32,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:16:1-31",
+      "gospel": "luke",
+      "chapter": 16,
+      "startVerse": 1,
+      "endVerse": 31,
+      "count": 31,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:17:1-37",
+      "gospel": "luke",
+      "chapter": 17,
+      "startVerse": 1,
+      "endVerse": 37,
+      "count": 37,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:18:1-43",
+      "gospel": "luke",
+      "chapter": 18,
+      "startVerse": 1,
+      "endVerse": 43,
+      "count": 43,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:19:1-27",
+      "gospel": "luke",
+      "chapter": 19,
+      "startVerse": 1,
+      "endVerse": 27,
+      "count": 27,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:20:1-47",
+      "gospel": "luke",
+      "chapter": 20,
+      "startVerse": 1,
+      "endVerse": 47,
+      "count": 47,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:21:1-38",
+      "gospel": "luke",
+      "chapter": 21,
+      "startVerse": 1,
+      "endVerse": 38,
+      "count": 38,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "luke:22:1-6",
+      "gospel": "luke",
+      "chapter": 22,
+      "startVerse": 1,
+      "endVerse": 6,
+      "count": 6,
+      "assignment": {
+        "category": "Uncategorized",
+        "status": "todo",
+        "notes": ""
+      }
+    },
+    {
+      "id": "john:2:23-25",
+      "gospel": "john",
+      "chapter": 2,
+      "startVerse": 23,
+      "endVerse": 25,
+      "count": 3,
+      "assignment": {
+        "category": "Merge Into Existing Event",
+        "status": "done",
+        "notes": "Continuation of clearing the temple"
+      }
+    }
+  ]
+}

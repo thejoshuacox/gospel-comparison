@@ -1,5 +1,5 @@
 import * as cheerio from "cheerio";
-import { PARSER_VERSION, REFERENCE_PATTERN, SOURCE_URL } from "@/lib/constants";
+import { REFERENCE_PATTERN } from "@/lib/constants";
 import { cleanCellValue, cleanReference, isReferenceValue, slugify } from "@/lib/references";
 import { type GospelEvent, type GospelRefs } from "@/types/gospel";
 
@@ -22,7 +22,16 @@ function hasAnyReference(refs: GospelRefs): boolean {
   return Object.values(refs).some(Boolean);
 }
 
-export function parseEcatholicTable(html: string, importedAt: string): { events: GospelEvent[]; report: ParseReport } {
+function parseLocation(raw: string): string | null {
+  const value = cleanCellValue(raw);
+  if (!value || value.toLowerCase() === "n/a") {
+    return null;
+  }
+
+  return value;
+}
+
+export function parseEcatholicTable(html: string): { events: GospelEvent[]; report: ParseReport } {
   const $ = cheerio.load(html);
   const table = $("#gospelComparisonTable");
 
@@ -50,6 +59,7 @@ export function parseEcatholicTable(html: string, importedAt: string): { events:
       }
 
       const title = cleanCellValue(cells[0]);
+      const location = parseLocation(cells[1]);
       if (!title) {
         unresolvedRows.push(`Row ${index + 1}: missing title`);
         return;
@@ -91,15 +101,10 @@ export function parseEcatholicTable(html: string, importedAt: string): { events:
 
       events.push({
         id,
-        section: "Gospel Narrative",
         title,
+        location,
         order: events.length + 1,
         references: refs,
-        source: {
-          sourceUrl: SOURCE_URL,
-          importedAt,
-          parserVersion: PARSER_VERSION,
-        },
       });
     });
 

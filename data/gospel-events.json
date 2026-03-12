@@ -1,2485 +1,1754 @@
 [
   {
     "id": "prologue-the-word-became-flesh",
-    "section": "Gospel Narrative",
     "title": "Prologue: The Word became flesh",
+    "location": null,
     "order": 1,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "1:1-18"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "genealogy-of-jesus",
-    "section": "Gospel Narrative",
     "title": "Genealogy of Jesus",
+    "location": null,
     "order": 2,
     "references": {
       "matthew": "1:1-17",
       "mark": "",
       "luke": "3:23-38",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "announcement-of-john-the-baptists-birth",
-    "section": "Gospel Narrative",
     "title": "Announcement of John the Baptist's birth",
+    "location": "Jerusalem (Temple)",
     "order": 3,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "1:5-25",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "announcement-of-jesus-birth-to-mary",
-    "section": "Gospel Narrative",
     "title": "Announcement of Jesus' birth to Mary",
+    "location": "Nazareth",
     "order": 4,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "1:26-38",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "mary-visits-elizabeth",
-    "section": "Gospel Narrative",
     "title": "Mary visits Elizabeth",
+    "location": "Judea",
     "order": 5,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "1:39-56",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "birth-of-john-the-baptist",
-    "section": "Gospel Narrative",
     "title": "Birth of John the Baptist",
+    "location": "Judea",
     "order": 6,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "1:57-80",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "josephs-dream",
-    "section": "Gospel Narrative",
     "title": "Joseph's dream",
+    "location": "Nazareth",
     "order": 7,
     "references": {
       "matthew": "1:18-25",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "birth-of-jesus",
-    "section": "Gospel Narrative",
     "title": "Birth of Jesus",
+    "location": "Bethlehem",
     "order": 8,
     "references": {
       "matthew": "2:1",
       "mark": "",
       "luke": "2:1-7",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "visit-of-the-magi",
-    "section": "Gospel Narrative",
     "title": "Visit of the Magi",
+    "location": "Bethlehem",
     "order": 9,
     "references": {
       "matthew": "2:1-12",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "escape-to-egypt",
-    "section": "Gospel Narrative",
     "title": "Escape to Egypt",
+    "location": "Egypt",
     "order": 10,
     "references": {
       "matthew": "2:13-15",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "massacre-of-the-innocents",
-    "section": "Gospel Narrative",
     "title": "Massacre of the Innocents",
+    "location": "Bethlehem",
     "order": 11,
     "references": {
       "matthew": "2:16-18",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "return-from-egypt",
-    "section": "Gospel Narrative",
     "title": "Return from Egypt",
+    "location": "Nazareth",
     "order": 12,
     "references": {
       "matthew": "2:19-23",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "angels-announce-jesus-birth-to-shepherds",
-    "section": "Gospel Narrative",
     "title": "Angels announce Jesus' birth to shepherds",
+    "location": "Bethlehem",
     "order": 13,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "2:8-20",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-presented-in-the-temple",
-    "section": "Gospel Narrative",
     "title": "Jesus presented in the temple",
+    "location": "Jerusalem (Temple)",
     "order": 14,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "2:22-38",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-as-a-boy-in-the-temple",
-    "section": "Gospel Narrative",
     "title": "Jesus as a boy in the temple",
+    "location": "Jerusalem (Temple)",
     "order": 15,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "2:41-52",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "ministry-of-john-the-baptist",
-    "section": "Gospel Narrative",
     "title": "Ministry of John the Baptist",
+    "location": "Jordan River",
     "order": 16,
     "references": {
       "matthew": "3:1-12",
       "mark": "1:1-8",
       "luke": "3:1-20",
       "john": "1:19-28"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "baptism-of-jesus",
-    "section": "Gospel Narrative",
     "title": "Baptism of Jesus",
+    "location": "Jordan River",
     "order": 17,
     "references": {
       "matthew": "3:13-17",
       "mark": "1:9-11",
       "luke": "3:21-22",
       "john": "1:29-34"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "temptation-of-jesus",
-    "section": "Gospel Narrative",
     "title": "Temptation of Jesus",
+    "location": "Wilderness",
     "order": 18,
     "references": {
       "matthew": "4:1-11",
       "mark": "1:12-13",
       "luke": "4:1-13",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "calling-of-the-first-disciples",
-    "section": "Gospel Narrative",
     "title": "Calling of the first disciples",
+    "location": "Galilee",
     "order": 19,
     "references": {
       "matthew": "4:18-22",
       "mark": "1:16-20",
       "luke": "5:1-11",
       "john": "1:35-51"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "wedding-at-cana",
-    "section": "Gospel Narrative",
     "title": "Wedding at Cana",
+    "location": "Cana",
     "order": 20,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "2:1-12"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-clears-the-temple",
-    "section": "Gospel Narrative",
     "title": "Jesus clears the temple",
+    "location": "Jerusalem (Temple)",
     "order": 21,
     "references": {
       "matthew": "21:12-17",
       "mark": "11:15-19",
       "luke": "19:45-48",
       "john": "2:13-22"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-teaches-nicodemus",
-    "section": "Gospel Narrative",
     "title": "Jesus teaches Nicodemus",
+    "location": "Jerusalem",
     "order": 22,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "3:1-21"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "johns-testimony-about-jesus",
-    "section": "Gospel Narrative",
     "title": "John's testimony about Jesus",
+    "location": "Judea",
     "order": 23,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "3:22-36"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-talks-with-a-samaritan-woman",
-    "section": "Gospel Narrative",
     "title": "Jesus talks with a Samaritan woman",
+    "location": "Sychar (Samaria)",
     "order": 24,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "4:1-26"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "many-samaritans-believe",
-    "section": "Gospel Narrative",
     "title": "Many Samaritans believe",
+    "location": "Sychar (Samaria)",
     "order": 25,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "4:27-42"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-heals-an-officials-son",
-    "section": "Gospel Narrative",
     "title": "Jesus heals an official's son",
+    "location": "Cana",
     "order": 26,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "4:43-54"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-begins-galilean-ministry",
-    "section": "Gospel Narrative",
     "title": "Jesus begins Galilean ministry",
+    "location": "Galilee",
     "order": 27,
     "references": {
       "matthew": "4:12-17",
       "mark": "1:14-15",
       "luke": "4:14-15",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-rejected-at-nazareth",
-    "section": "Gospel Narrative",
     "title": "Jesus rejected at Nazareth",
+    "location": "Nazareth",
     "order": 28,
     "references": {
       "matthew": "13:53-58",
       "mark": "6:1-6",
       "luke": "4:16-30",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-teaches-with-authority-in-capernaum",
-    "section": "Gospel Narrative",
     "title": "Jesus teaches with authority in Capernaum",
+    "location": "Capernaum",
     "order": 29,
     "references": {
       "matthew": "",
       "mark": "1:21-22",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-drives-out-an-evil-spirit",
-    "section": "Gospel Narrative",
     "title": "Jesus drives out an evil spirit",
+    "location": "Capernaum",
     "order": 30,
     "references": {
       "matthew": "",
       "mark": "1:23-28",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-heals-many",
-    "section": "Gospel Narrative",
     "title": "Jesus heals many",
+    "location": "Capernaum",
     "order": 31,
     "references": {
       "matthew": "8:14-17",
       "mark": "1:29-34",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-prays-in-a-solitary-place",
-    "section": "Gospel Narrative",
     "title": "Jesus prays in a solitary place",
+    "location": "Near Capernaum",
     "order": 32,
     "references": {
       "matthew": "",
       "mark": "1:35-39",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-heals-a-man-with-leprosy",
-    "section": "Gospel Narrative",
     "title": "Jesus heals a man with leprosy",
+    "location": "Galilee",
     "order": 33,
     "references": {
       "matthew": "8:1-4",
       "mark": "1:40-45",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-heals-a-paralyzed-man",
-    "section": "Gospel Narrative",
     "title": "Jesus heals a paralyzed man",
+    "location": "Capernaum",
     "order": 34,
     "references": {
       "matthew": "9:1-8",
       "mark": "2:1-12",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "healing-at-the-pool-of-bethesda",
-    "section": "Gospel Narrative",
     "title": "Healing at the pool of Bethesda",
+    "location": "Jerusalem",
     "order": 35,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "5:1-15"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-authority-of-the-son",
-    "section": "Gospel Narrative",
     "title": "The authority of the Son",
+    "location": "Jerusalem",
     "order": 36,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "5:16-30"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "testimonies-about-jesus",
-    "section": "Gospel Narrative",
     "title": "Testimonies about Jesus",
+    "location": "Jerusalem",
     "order": 37,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "5:31-47"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "calling-of-matthew-levi",
-    "section": "Gospel Narrative",
     "title": "Calling of Matthew (Levi)",
+    "location": "Capernaum",
     "order": 38,
     "references": {
       "matthew": "9:9-13",
       "mark": "2:13-17",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-questioned-about-fasting",
-    "section": "Gospel Narrative",
     "title": "Jesus questioned about fasting",
+    "location": "Galilee",
     "order": 39,
     "references": {
       "matthew": "9:14-17",
       "mark": "2:18-22",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-is-lord-of-the-sabbath",
-    "section": "Gospel Narrative",
     "title": "Jesus is Lord of the Sabbath",
+    "location": "Galilee",
     "order": 40,
     "references": {
       "matthew": "12:1-8",
       "mark": "2:23-28",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "healing-of-the-man-with-a-shriveled-hand",
-    "section": "Gospel Narrative",
     "title": "Healing of the man with a shriveled hand",
+    "location": "Galilee",
     "order": 41,
     "references": {
       "matthew": "12:9-14",
       "mark": "3:1-6",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "crowds-follow-jesus",
-    "section": "Gospel Narrative",
     "title": "Crowds follow Jesus",
+    "location": "Galilee",
     "order": 42,
     "references": {
       "matthew": "12:15-21",
       "mark": "3:7-12",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-appoints-the-twelve",
-    "section": "Gospel Narrative",
     "title": "Jesus appoints the Twelve",
+    "location": "Near Sea of Galilee",
     "order": 43,
     "references": {
       "matthew": "10:1-4",
       "mark": "3:13-19",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "sermon-on-the-mountplain",
-    "section": "Gospel Narrative",
     "title": "Sermon on the Mount/Plain",
+    "location": "Near Sea of Galilee",
     "order": 44,
     "references": {
       "matthew": "5:1-7:29",
       "mark": "",
       "luke": "6:17-49",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-accused-by-his-family-and-by-teachers-of-the-law",
-    "section": "Gospel Narrative",
     "title": "Jesus accused by his family and by teachers of the law",
+    "location": "Galilee",
     "order": 45,
     "references": {
       "matthew": "12:22-37",
       "mark": "3:20-30",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-mother-and-brothers",
-    "section": "Gospel Narrative",
     "title": "Jesus' mother and brothers",
+    "location": "Galilee",
     "order": 46,
     "references": {
       "matthew": "12:46-50",
       "mark": "3:31-35",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "parable-of-the-sower",
-    "section": "Gospel Narrative",
     "title": "Parable of the Sower",
+    "location": "Galilee",
     "order": 47,
     "references": {
       "matthew": "13:1-23",
       "mark": "4:1-20",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "lamp-on-a-stand",
-    "section": "Gospel Narrative",
     "title": "Lamp on a stand",
+    "location": "Galilee",
     "order": 48,
     "references": {
       "matthew": "5:14-16",
       "mark": "4:21-25",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "parable-of-the-weeds",
-    "section": "Gospel Narrative",
     "title": "Parable of the weeds",
+    "location": "Galilee",
     "order": 49,
     "references": {
       "matthew": "13:24-30",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "parables-of-the-mustard-seed-and-yeast",
-    "section": "Gospel Narrative",
     "title": "Parables of the mustard seed and yeast",
+    "location": "Galilee",
     "order": 50,
     "references": {
       "matthew": "13:31-33",
       "mark": "4:30-34",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "explanation-of-the-parable-of-the-weeds",
-    "section": "Gospel Narrative",
     "title": "Explanation of the parable of the weeds",
+    "location": "Near Sea of Galilee",
     "order": 51,
     "references": {
       "matthew": "13:36-43",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "parables-of-the-hidden-treasure-and-pearl",
-    "section": "Gospel Narrative",
     "title": "Parables of the hidden treasure and pearl",
+    "location": "Near Sea of Galilee",
     "order": 52,
     "references": {
       "matthew": "13:44-46",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "parable-of-the-net",
-    "section": "Gospel Narrative",
     "title": "Parable of the net",
+    "location": "Near Sea of Galilee",
     "order": 53,
     "references": {
       "matthew": "13:47-52",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-calms-the-storm",
-    "section": "Gospel Narrative",
     "title": "Jesus calms the storm",
+    "location": "Galilee",
     "order": 54,
     "references": {
       "matthew": "8:23-27",
       "mark": "4:35-41",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "healing-of-demon-possessed-man",
-    "section": "Gospel Narrative",
     "title": "Healing of demon-possessed man",
+    "location": "Gerasenes",
     "order": 55,
     "references": {
       "matthew": "8:28-34",
       "mark": "5:1-20",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "healing-of-a-bleeding-woman-and-raising-of-jairus-daughter",
-    "section": "Gospel Narrative",
     "title": "Healing of a bleeding woman and raising of Jairus' daughter",
+    "location": "Capernaum",
     "order": 56,
     "references": {
       "matthew": "9:18-26",
       "mark": "5:21-43",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-sends-out-the-twelve",
-    "section": "Gospel Narrative",
     "title": "Jesus sends out the Twelve",
+    "location": "Galilee",
     "order": 57,
     "references": {
       "matthew": "10:5-42",
       "mark": "6:7-13",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "john-the-baptist-beheaded",
-    "section": "Gospel Narrative",
     "title": "John the Baptist beheaded",
+    "location": "Machaerus (Herod's fortress)",
     "order": 58,
     "references": {
       "matthew": "14:1-12",
       "mark": "6:14-29",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "feeding-of-the-5000",
-    "section": "Gospel Narrative",
     "title": "Feeding of the 5,000",
+    "location": "Near Bethsaida",
     "order": 59,
     "references": {
       "matthew": "14:13-21",
       "mark": "6:30-44",
       "luke": "9:10-17",
       "john": "6:1-15"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-walks-on-water",
-    "section": "Gospel Narrative",
     "title": "Jesus walks on water",
+    "location": "Galilee",
     "order": 60,
     "references": {
       "matthew": "14:22-33",
       "mark": "6:45-56",
       "luke": "",
       "john": "6:16-21"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-the-bread-of-life",
-    "section": "Gospel Narrative",
     "title": "Jesus the bread of life",
+    "location": "Capernaum",
     "order": 61,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "6:22-59"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "many-disciples-desert-jesus",
-    "section": "Gospel Narrative",
     "title": "Many disciples desert Jesus",
+    "location": "Capernaum",
     "order": 62,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "6:60-71"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "clean-and-unclean",
-    "section": "Gospel Narrative",
     "title": "Clean and unclean",
+    "location": "Galilee",
     "order": 63,
     "references": {
       "matthew": "15:1-20",
       "mark": "7:1-23",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "faith-of-a-canaanite-woman",
-    "section": "Gospel Narrative",
     "title": "Faith of a Canaanite woman",
+    "location": "Tyre and Sidon",
     "order": 64,
     "references": {
       "matthew": "15:21-28",
       "mark": "7:24-30",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-heals-many-2",
-    "section": "Gospel Narrative",
     "title": "Jesus heals many",
+    "location": "Galilee",
     "order": 65,
     "references": {
       "matthew": "15:29-31",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "feeding-of-the-4000",
-    "section": "Gospel Narrative",
     "title": "Feeding of the 4,000",
+    "location": "Decapolis",
     "order": 66,
     "references": {
       "matthew": "15:32-39",
       "mark": "8:1-13",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "pharisees-and-sadducees-ask-for-a-sign",
-    "section": "Gospel Narrative",
     "title": "Pharisees and Sadducees ask for a sign",
+    "location": "Magadan",
     "order": 67,
     "references": {
       "matthew": "16:1-4",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "yeast-of-the-pharisees-and-sadducees",
-    "section": "Gospel Narrative",
     "title": "Yeast of the Pharisees and Sadducees",
+    "location": "Galilee",
     "order": 68,
     "references": {
       "matthew": "16:5-12",
       "mark": "8:14-21",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-goes-to-the-feast-of-tabernacles",
-    "section": "Gospel Narrative",
     "title": "Jesus goes to the Feast of Tabernacles",
+    "location": "Jerusalem",
     "order": 69,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "7:1-13"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-teaches-at-the-feast",
-    "section": "Gospel Narrative",
     "title": "Jesus teaches at the Feast",
+    "location": "Jerusalem (Temple)",
     "order": 70,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "7:14-44"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "unbelief-of-the-jewish-leaders",
-    "section": "Gospel Narrative",
     "title": "Unbelief of the Jewish leaders",
+    "location": "Jerusalem",
     "order": 71,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "7:45-52"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-woman-caught-in-adultery",
-    "section": "Gospel Narrative",
     "title": "The woman caught in adultery",
+    "location": "Jerusalem (Temple)",
     "order": 72,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "7:53-8:11"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-the-light-of-the-world",
-    "section": "Gospel Narrative",
     "title": "Jesus the light of the world",
+    "location": "Jerusalem (Temple)",
     "order": 73,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "8:12-20"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "dispute-over-jesus-testimony",
-    "section": "Gospel Narrative",
     "title": "Dispute over Jesus' testimony",
+    "location": "Jerusalem",
     "order": 74,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "8:21-30"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-children-of-abraham",
-    "section": "Gospel Narrative",
     "title": "The children of Abraham",
+    "location": "Jerusalem",
     "order": 75,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "8:31-59"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-heals-a-man-born-blind",
-    "section": "Gospel Narrative",
     "title": "Jesus heals a man born blind",
+    "location": "Jerusalem",
     "order": 76,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "9:1-41"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-good-shepherd",
-    "section": "Gospel Narrative",
     "title": "The good shepherd",
+    "location": "Jerusalem",
     "order": 77,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "10:1-21"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "peters-confession-of-christ",
-    "section": "Gospel Narrative",
     "title": "Peter's confession of Christ",
+    "location": "Caesarea Philippi",
     "order": 78,
     "references": {
       "matthew": "16:13-20",
       "mark": "8:27-30",
       "luke": "9:18-20",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-predicts-his-death",
-    "section": "Gospel Narrative",
     "title": "Jesus predicts his death",
+    "location": "Caesarea Philippi",
     "order": 79,
     "references": {
       "matthew": "16:21-23",
       "mark": "8:31-33",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-transfiguration",
-    "section": "Gospel Narrative",
     "title": "The Transfiguration",
+    "location": "Mount of Transfiguration",
     "order": 80,
     "references": {
       "matthew": "17:1-13",
       "mark": "9:2-13",
       "luke": "9:28-36",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "healing-of-a-boy-with-an-evil-spirit",
-    "section": "Gospel Narrative",
     "title": "Healing of a boy with an evil spirit",
+    "location": "Near Mount of Transfiguration",
     "order": 81,
     "references": {
       "matthew": "17:14-21",
       "mark": "9:14-29",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-predicts-his-death-a-second-time",
-    "section": "Gospel Narrative",
     "title": "Jesus predicts his death a second time",
+    "location": "Galilee",
     "order": 82,
     "references": {
       "matthew": "17:22-23",
       "mark": "9:30-32",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-temple-tax",
-    "section": "Gospel Narrative",
     "title": "The temple tax",
+    "location": "Capernaum",
     "order": 83,
     "references": {
       "matthew": "17:24-27",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "who-is-the-greatest",
-    "section": "Gospel Narrative",
     "title": "Who is the greatest?",
+    "location": "Capernaum",
     "order": 84,
     "references": {
       "matthew": "18:1-5",
       "mark": "9:33-37",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "causing-to-sin",
-    "section": "Gospel Narrative",
     "title": "Causing to sin",
+    "location": "Capernaum",
     "order": 85,
     "references": {
       "matthew": "18:6-9",
       "mark": "9:42-50",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "parable-of-the-lost-sheep",
-    "section": "Gospel Narrative",
     "title": "Parable of the lost sheep",
+    "location": "Capernaum",
     "order": 86,
     "references": {
       "matthew": "18:10-14",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "dealing-with-sin-in-the-church",
-    "section": "Gospel Narrative",
     "title": "Dealing with sin in the church",
+    "location": "Capernaum",
     "order": 87,
     "references": {
       "matthew": "18:15-20",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "parable-of-the-unmerciful-servant",
-    "section": "Gospel Narrative",
     "title": "Parable of the unmerciful servant",
+    "location": "Capernaum",
     "order": 88,
     "references": {
       "matthew": "18:21-35",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-at-the-feast-of-dedication",
-    "section": "Gospel Narrative",
     "title": "Jesus at the Feast of Dedication",
+    "location": "Jerusalem",
     "order": 89,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "10:22-42"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-death-of-lazarus",
-    "section": "Gospel Narrative",
     "title": "The death of Lazarus",
+    "location": "Bethany",
     "order": 90,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "11:1-16"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-comforts-the-sisters",
-    "section": "Gospel Narrative",
     "title": "Jesus comforts the sisters",
+    "location": "Bethany",
     "order": 91,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "11:17-37"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-raises-lazarus-from-the-dead",
-    "section": "Gospel Narrative",
     "title": "Jesus raises Lazarus from the dead",
+    "location": "Bethany",
     "order": 92,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "11:38-44"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-plot-to-kill-jesus",
-    "section": "Gospel Narrative",
     "title": "The plot to kill Jesus",
+    "location": "Jerusalem",
     "order": 93,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "11:45-57"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-sends-out-the-seventy-two",
-    "section": "Gospel Narrative",
     "title": "Jesus sends out the seventy-two",
+    "location": "Judea",
     "order": 94,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "10:1-24",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "parable-of-the-good-samaritan",
-    "section": "Gospel Narrative",
     "title": "Parable of the Good Samaritan",
+    "location": "Judea",
     "order": 95,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "10:25-37",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-teaches-the-lords-prayer",
-    "section": "Gospel Narrative",
     "title": "Jesus teaches the Lord's Prayer",
+    "location": "Judea",
     "order": 96,
     "references": {
       "matthew": "6:9-13",
       "mark": "",
       "luke": "11:1-4",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-blesses-little-children",
-    "section": "Gospel Narrative",
     "title": "Jesus blesses little children",
+    "location": "Perea",
     "order": 97,
     "references": {
       "matthew": "19:13-15",
       "mark": "10:13-16",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-rich-young-man",
-    "section": "Gospel Narrative",
     "title": "The rich young man",
+    "location": "Perea",
     "order": 98,
     "references": {
       "matthew": "19:16-30",
       "mark": "10:17-31",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "parable-of-the-workers-in-the-vineyard",
-    "section": "Gospel Narrative",
     "title": "Parable of the workers in the vineyard",
+    "location": "Perea",
     "order": 99,
     "references": {
       "matthew": "20:1-16",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-predicts-his-death-a-third-time",
-    "section": "Gospel Narrative",
     "title": "Jesus predicts his death a third time",
+    "location": "On the way to Jerusalem",
     "order": 100,
     "references": {
       "matthew": "20:17-19",
       "mark": "10:32-34",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "request-of-james-and-john",
-    "section": "Gospel Narrative",
     "title": "Request of James and John",
+    "location": "On the way to Jerusalem",
     "order": 101,
     "references": {
       "matthew": "20:20-28",
       "mark": "10:35-45",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "blind-men-receive-sight",
-    "section": "Gospel Narrative",
     "title": "Blind men receive sight",
+    "location": "Jericho",
     "order": 102,
     "references": {
       "matthew": "20:29-34",
       "mark": "10:46-52",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-anointed-at-bethany",
-    "section": "Gospel Narrative",
     "title": "Jesus anointed at Bethany",
+    "location": "Bethany",
     "order": 103,
     "references": {
       "matthew": "26:6-13",
       "mark": "14:3-9",
       "luke": "",
       "john": "12:1-11"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "triumphal-entry-into-jerusalem",
-    "section": "Gospel Narrative",
     "title": "Triumphal entry into Jerusalem",
+    "location": "Jerusalem",
     "order": 104,
     "references": {
       "matthew": "21:1-11",
       "mark": "11:1-11",
       "luke": "19:28-44",
       "john": "12:12-19"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-predicts-his-death-2",
-    "section": "Gospel Narrative",
     "title": "Jesus predicts his death",
+    "location": "Jerusalem",
     "order": 105,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "12:20-36"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-jews-continue-in-their-unbelief",
-    "section": "Gospel Narrative",
     "title": "The Jews continue in their unbelief",
+    "location": "Jerusalem",
     "order": 106,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "12:37-50"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-curses-a-fig-tree-and-clears-the-temple",
-    "section": "Gospel Narrative",
     "title": "Jesus curses a fig tree and clears the temple",
+    "location": "Jerusalem",
     "order": 107,
     "references": {
       "matthew": "21:12-22",
       "mark": "11:12-19",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-authority-of-jesus-questioned",
-    "section": "Gospel Narrative",
     "title": "The authority of Jesus questioned",
+    "location": "Jerusalem (Temple)",
     "order": 108,
     "references": {
       "matthew": "21:23-27",
       "mark": "11:27-33",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "parable-of-the-two-sons",
-    "section": "Gospel Narrative",
     "title": "Parable of the two sons",
+    "location": "Jerusalem (Temple)",
     "order": 109,
     "references": {
       "matthew": "21:28-32",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "parable-of-the-tenants",
-    "section": "Gospel Narrative",
     "title": "Parable of the tenants",
+    "location": "Jerusalem (Temple)",
     "order": 110,
     "references": {
       "matthew": "21:33-46",
       "mark": "12:1-12",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "parable-of-the-wedding-banquet",
-    "section": "Gospel Narrative",
     "title": "Parable of the wedding banquet",
+    "location": "Jerusalem",
     "order": 111,
     "references": {
       "matthew": "22:1-14",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "paying-taxes-to-caesar",
-    "section": "Gospel Narrative",
     "title": "Paying taxes to Caesar",
+    "location": "Jerusalem",
     "order": 112,
     "references": {
       "matthew": "22:15-22",
       "mark": "12:13-17",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "marriage-at-the-resurrection",
-    "section": "Gospel Narrative",
     "title": "Marriage at the resurrection",
+    "location": "Jerusalem",
     "order": 113,
     "references": {
       "matthew": "22:23-33",
       "mark": "12:18-27",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-greatest-commandment",
-    "section": "Gospel Narrative",
     "title": "The greatest commandment",
+    "location": "Jerusalem",
     "order": 114,
     "references": {
       "matthew": "22:34-40",
       "mark": "12:28-34",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "whose-son-is-the-christ",
-    "section": "Gospel Narrative",
     "title": "Whose son is the Christ?",
+    "location": "Jerusalem",
     "order": 115,
     "references": {
       "matthew": "22:41-46",
       "mark": "12:35-40",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "seven-woes-on-the-teachers-of-the-law-and-pharisees",
-    "section": "Gospel Narrative",
     "title": "Seven woes on the teachers of the law and Pharisees",
+    "location": "Jerusalem",
     "order": 116,
     "references": {
       "matthew": "23:1-39",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "signs-of-the-end-of-the-age",
-    "section": "Gospel Narrative",
     "title": "Signs of the end of the age",
+    "location": "Mount of Olives",
     "order": 117,
     "references": {
       "matthew": "24:1-51",
       "mark": "13:1-37",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "parable-of-the-ten-virgins",
-    "section": "Gospel Narrative",
     "title": "Parable of the ten virgins",
+    "location": "Mount of Olives",
     "order": 118,
     "references": {
       "matthew": "25:1-13",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "parable-of-the-talents",
-    "section": "Gospel Narrative",
     "title": "Parable of the talents",
+    "location": "Mount of Olives",
     "order": 119,
     "references": {
       "matthew": "25:14-30",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-sheep-and-the-goats",
-    "section": "Gospel Narrative",
     "title": "The sheep and the goats",
+    "location": "Mount of Olives",
     "order": 120,
     "references": {
       "matthew": "25:31-46",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "plot-against-jesus",
-    "section": "Gospel Narrative",
     "title": "Plot against Jesus",
+    "location": "Jerusalem",
     "order": 121,
     "references": {
       "matthew": "26:1-5",
       "mark": "14:1-2",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "judas-agrees-to-betray-jesus",
-    "section": "Gospel Narrative",
     "title": "Judas agrees to betray Jesus",
+    "location": "Jerusalem",
     "order": 122,
     "references": {
       "matthew": "26:14-16",
       "mark": "14:10-11",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-last-supper",
-    "section": "Gospel Narrative",
     "title": "The Last Supper",
+    "location": "Jerusalem (Upper Room)",
     "order": 123,
     "references": {
       "matthew": "26:17-30",
       "mark": "14:12-26",
       "luke": "22:7-38",
       "john": "13:1-17:26"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-predicts-peters-denial",
-    "section": "Gospel Narrative",
     "title": "Jesus predicts Peter's denial",
+    "location": "Jerusalem (Upper Room)",
     "order": 124,
     "references": {
       "matthew": "26:31-35",
       "mark": "14:27-31",
       "luke": "22:31-34",
       "john": "13:36-38"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-prays-in-gethsemane",
-    "section": "Gospel Narrative",
     "title": "Jesus prays in Gethsemane",
+    "location": "Mount of Olives (Garden of Gethsemane)",
     "order": 125,
     "references": {
       "matthew": "26:36-46",
       "mark": "14:32-42",
       "luke": "22:39-46",
       "john": "18:1"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-arrest",
-    "section": "Gospel Narrative",
     "title": "Jesus' arrest",
+    "location": "Garden of Gethsemane",
     "order": 126,
     "references": {
       "matthew": "26:47-56",
       "mark": "14:43-52",
       "luke": "22:47-53",
       "john": "18:2-12"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-before-the-sanhedrin",
-    "section": "Gospel Narrative",
     "title": "Jesus before the Sanhedrin",
+    "location": "Jerusalem (High Priest's house)",
     "order": 127,
     "references": {
       "matthew": "26:57-68",
       "mark": "14:53-65",
       "luke": "22:54-71",
       "john": "18:13-14,19-24"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "peters-denial",
-    "section": "Gospel Narrative",
     "title": "Peter's denial",
+    "location": "Jerusalem (High Priest's courtyard)",
     "order": 128,
     "references": {
       "matthew": "26:69-75",
       "mark": "14:66-72",
       "luke": "22:54-62",
       "john": "18:15-18,25-27"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "judas-hangs-himself",
-    "section": "Gospel Narrative",
     "title": "Judas hangs himself",
+    "location": "Jerusalem",
     "order": 129,
     "references": {
       "matthew": "27:1-10",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-before-pilate",
-    "section": "Gospel Narrative",
     "title": "Jesus before Pilate",
+    "location": "Jerusalem (Praetorium)",
     "order": 130,
     "references": {
       "matthew": "27:11-26",
       "mark": "15:1-15",
       "luke": "23:1-25",
       "john": "18:28-19:16"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "soldiers-mock-jesus",
-    "section": "Gospel Narrative",
     "title": "Soldiers mock Jesus",
+    "location": "Jerusalem (Praetorium)",
     "order": 131,
     "references": {
       "matthew": "27:27-31",
       "mark": "15:16-20",
       "luke": "",
       "john": "19:1-3"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "crucifixion",
-    "section": "Gospel Narrative",
     "title": "Crucifixion",
+    "location": "Golgotha (outside Jerusalem)",
     "order": 132,
     "references": {
       "matthew": "27:32-44",
       "mark": "15:21-32",
       "luke": "23:26-43",
       "john": "19:17-27"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "death-of-jesus",
-    "section": "Gospel Narrative",
     "title": "Death of Jesus",
+    "location": "Golgotha",
     "order": 133,
     "references": {
       "matthew": "27:45-56",
       "mark": "15:33-41",
       "luke": "23:44-49",
       "john": "19:28-37"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-burial",
-    "section": "Gospel Narrative",
     "title": "Jesus' burial",
+    "location": "Garden Tomb (near Golgotha)",
     "order": 134,
     "references": {
       "matthew": "27:57-61",
       "mark": "15:42-47",
       "luke": "23:50-56",
       "john": "19:38-42"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-guard-at-the-tomb",
-    "section": "Gospel Narrative",
     "title": "The guard at the tomb",
+    "location": "Garden Tomb",
     "order": 135,
     "references": {
       "matthew": "27:62-66",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "resurrection",
-    "section": "Gospel Narrative",
     "title": "Resurrection",
+    "location": "Garden Tomb",
     "order": 136,
     "references": {
       "matthew": "28:1-10",
       "mark": "16:1-8",
       "luke": "24:1-12",
       "john": "20:1-10"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-appears-to-mary-magdalene",
-    "section": "Gospel Narrative",
     "title": "Jesus appears to Mary Magdalene",
+    "location": "Garden Tomb",
     "order": 137,
     "references": {
       "matthew": "",
       "mark": "16:9-11",
       "luke": "",
       "john": "20:11-18"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-guards-report",
-    "section": "Gospel Narrative",
     "title": "The guards' report",
+    "location": "Jerusalem",
     "order": 138,
     "references": {
       "matthew": "28:11-15",
       "mark": "",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-appears-to-two-disciples",
-    "section": "Gospel Narrative",
     "title": "Jesus appears to two disciples",
+    "location": "Road to Emmaus",
     "order": 139,
     "references": {
       "matthew": "",
       "mark": "16:12-13",
       "luke": "24:13-35",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-appears-to-the-disciples",
-    "section": "Gospel Narrative",
     "title": "Jesus appears to the disciples",
+    "location": "Jerusalem",
     "order": 140,
     "references": {
       "matthew": "",
       "mark": "16:14",
       "luke": "24:36-49",
       "john": "20:19-23"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-appears-to-thomas",
-    "section": "Gospel Narrative",
     "title": "Jesus appears to Thomas",
+    "location": "Jerusalem",
     "order": 141,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "20:24-29"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-purpose-of-johns-gospel",
-    "section": "Gospel Narrative",
     "title": "The purpose of John's gospel",
+    "location": null,
     "order": 142,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "20:30-31"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-and-the-miraculous-catch-of-fish",
-    "section": "Gospel Narrative",
     "title": "Jesus and the miraculous catch of fish",
+    "location": "Galilee",
     "order": 143,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "21:1-14"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "jesus-reinstates-peter",
-    "section": "Gospel Narrative",
     "title": "Jesus reinstates Peter",
+    "location": "Galilee",
     "order": 144,
     "references": {
       "matthew": "",
       "mark": "",
       "luke": "",
       "john": "21:15-25"
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "the-great-commission",
-    "section": "Gospel Narrative",
     "title": "The Great Commission",
+    "location": "Galilee",
     "order": 145,
     "references": {
       "matthew": "28:16-20",
       "mark": "16:15-18",
       "luke": "",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   },
   {
     "id": "ascension",
-    "section": "Gospel Narrative",
     "title": "Ascension",
+    "location": "Mount of Olives",
     "order": 146,
     "references": {
       "matthew": "",
       "mark": "16:19-20",
       "luke": "24:50-53",
       "john": ""
-    },
-    "source": {
-      "sourceUrl": "https://www.ecatholic2000.com/gospels.shtml",
-      "importedAt": "2026-03-03T23:49:24.037Z",
-      "parserVersion": "1.0.0"
     }
   }
 ]
-

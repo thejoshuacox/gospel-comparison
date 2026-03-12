@@ -12,19 +12,14 @@ describe("compare payload", () => {
   it("handles partial passage failures", async () => {
     vi.spyOn(events, "getEventById").mockReturnValue({
       id: "x",
-      section: "Gospel Narrative",
       title: "Sample",
+      location: "Capernaum",
       order: 1,
       references: {
         matthew: "1:1",
         mark: null,
         luke: null,
         john: null,
-      },
-      source: {
-        sourceUrl: "https://example.com",
-        importedAt: "2026-03-03T00:00:00.000Z",
-        parserVersion: "1.0.0",
       },
     });
 

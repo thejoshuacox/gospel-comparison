@@ -4,7 +4,6 @@ import { parseEcatholicTable } from "@/lib/import/parseEcatholic";
 import { SOURCE_URL } from "@/lib/constants";
 
 async function run(): Promise<void> {
-  const importedAt = new Date().toISOString();
   const response = await fetch(SOURCE_URL, {
     headers: {
       "User-Agent": "GospelComparisonImporter/1.0",
@@ -16,7 +15,7 @@ async function run(): Promise<void> {
   }
 
   const html = await response.text();
-  const { events, report } = parseEcatholicTable(html, importedAt);
+  const { events, report } = parseEcatholicTable(html);
 
   const dataPath = path.join(process.cwd(), "data", "gospel-events.json");
   const reportPath = path.join(process.cwd(), "data", "import-report.json");

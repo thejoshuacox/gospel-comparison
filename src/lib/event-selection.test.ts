@@ -2,44 +2,34 @@ import { describe, expect, it } from "vitest";
 import { filterEventsByIncludeExclude, sortEvents } from "@/lib/event-selection";
 import type { GospelEvent } from "@/types/gospel";
 
-const baseSource = {
-  sourceUrl: "https://example.com",
-  importedAt: "2026-03-04T00:00:00.000Z",
-  parserVersion: "1.0.0",
-};
-
 const events: GospelEvent[] = [
   {
     id: "a",
-    section: "s",
     title: "A",
+    location: "Loc A",
     order: 1,
     references: { matthew: "4:1", mark: "1:1", luke: "3:1", john: "1:1" },
-    source: baseSource,
   },
   {
     id: "b",
-    section: "s",
     title: "B",
+    location: "Loc B",
     order: 2,
     references: { matthew: "5:1", mark: null, luke: "4:1", john: null },
-    source: baseSource,
   },
   {
     id: "c",
-    section: "s",
     title: "C",
+    location: "Loc C",
     order: 3,
     references: { matthew: null, mark: null, luke: "2:1", john: null },
-    source: baseSource,
   },
   {
     id: "d",
-    section: "s",
     title: "D",
+    location: "Loc D",
     order: 4,
     references: { matthew: null, mark: "2:1", luke: null, john: null },
-    source: baseSource,
   },
 ];
 

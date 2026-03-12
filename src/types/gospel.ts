@@ -4,19 +4,36 @@ export type GospelKey = (typeof GOSPEL_KEYS)[number];
 
 export type GospelRefs = Record<GospelKey, string | null>;
 
-export type SourceMeta = {
-  sourceUrl: string;
-  importedAt: string;
-  parserVersion: string;
-};
-
 export type GospelEvent = {
   id: string;
-  section: string;
   title: string;
+  location: string | null;
   order: number;
   references: GospelRefs;
-  source: SourceMeta;
+};
+
+export type GospelEventOverride = {
+  id: string;
+  title?: string;
+  location?: string | null;
+  references?: Partial<GospelRefs>;
+  hidden?: boolean;
+  notes?: string;
+};
+
+export type GospelEventAddition = {
+  id: string;
+  title: string;
+  location: string | null;
+  references: GospelRefs;
+  insertAfterId?: string;
+  insertBeforeId?: string;
+  notes?: string;
+};
+
+export type ManualEventsFile = {
+  overrides: GospelEventOverride[];
+  additions: GospelEventAddition[];
 };
 
 export type PassageVerse = {

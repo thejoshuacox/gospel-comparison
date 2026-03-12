@@ -1,13 +1,9 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { mergeEvents, parseManualEventsFile } from "../src/lib/manual-events";
+import type { GospelEvent } from "../src/types/gospel";
 
 type GospelKey = "matthew" | "mark" | "luke" | "john";
-
-type GospelEvent = {
-  id: string;
-  title: string;
-  references: Record<GospelKey, string | null>;
-};
 
 type Segment = {
   startChapter: number;
@@ -187,9 +183,13 @@ function toMarkdownSummary(
 }
 
 async function run(): Promise<void> {
-  const dataPath = path.join(process.cwd(), "data", "gospel-events.json");
-  const raw = await readFile(dataPath, "utf8");
-  const events = JSON.parse(raw) as GospelEvent[];
+  const importedDataPath = path.join(process.cwd(), "data", "gospel-events.json");
+  const manualDataPath = path.join(process.cwd(), "data", "gospel-events.manual.json");
+  const raw = await readFile(importedDataPath, "utf8");
+  const importedEvents = JSON.parse(raw) as GospelEvent[];
+  const manualRaw = await readFile(manualDataPath, "utf8");
+  const manualFile = parseManualEventsFile(JSON.parse(manualRaw));
+  const events = mergeEvents(importedEvents, manualFile);
 
   const chapterVerseCounts: Record<GospelKey, number[]> = {
     matthew: [...CHAPTER_VERSE_COUNTS.matthew],
@@ -283,7 +283,7 @@ async function run(): Promise<void> {
 
   const report = {
     generatedAt: new Date().toISOString(),
-    source: "data/gospel-events.json",
+    source: "merged(data/gospel-events.json + data/gospel-events.manual.json)",
     summaries,
     detail,
   };

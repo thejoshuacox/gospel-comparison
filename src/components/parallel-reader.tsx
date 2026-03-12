@@ -258,7 +258,9 @@ export function ParallelReader({ events }: Props) {
     });
   }, [isPickerOpen, selectedEventId, filteredEvents]);
 
-  const selectedTitle = payload?.event.title ?? filteredEvents.find((event) => event.id === selectedEventId)?.title;
+  const selectedEvent = payload?.event ?? filteredEvents.find((event) => event.id === selectedEventId) ?? null;
+  const selectedTitle = selectedEvent?.title ?? null;
+  const selectedLocation = selectedEvent?.location ?? null;
 
   return (
     <main className="container">
@@ -266,6 +268,7 @@ export function ParallelReader({ events }: Props) {
         <div>
           <h1>Gospel Parallel Reader</h1>
           <p>{selectedTitle ? `Current event: ${selectedTitle}` : "Select an event to begin."}</p>
+          {selectedLocation ? <p>{`Location: ${selectedLocation}`}</p> : null}
         </div>
 
         <div className="reader-controls">

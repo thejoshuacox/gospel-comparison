@@ -11,10 +11,11 @@ describe("parseEcatholicTable", () => {
       </table>
     `;
 
-    const { events, report } = parseEcatholicTable(html, "2026-03-03T00:00:00.000Z");
+    const { events, report } = parseEcatholicTable(html);
 
     expect(events).toHaveLength(2);
     expect(events[0].title).toBe("Baptism of Jesus");
+    expect(events[0].location).toBe("Jordan River");
     expect(events[0].references.mark).toBe("1:9-11");
     expect(report.unresolvedRows).toHaveLength(0);
   });

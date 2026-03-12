@@ -1,0 +1,32 @@
+{
+  "overrides": [],
+  "additions": [],
+  "_examples": {
+    "overrides": [
+      {
+        "id": "baptism-of-jesus",
+        "title": "Baptism of Jesus and John's Witness",
+        "location": "Jordan River",
+        "references": {
+          "john": "1:29-34"
+        },
+        "notes": "Example override. Move into the live overrides array to apply."
+      }
+    ],
+    "additions": [
+      {
+        "id": "jesus-heals-centurions-servant",
+        "title": "Jesus heals the centurion's servant",
+        "location": "Capernaum",
+        "insertAfterId": "jesus-heals-a-man-with-leprosy",
+        "references": {
+          "matthew": "8:5-13",
+          "mark": null,
+          "luke": "7:1-10",
+          "john": null
+        },
+        "notes": "Example addition. Move into the live additions array to apply."
+      }
+    ]
+  }
+}

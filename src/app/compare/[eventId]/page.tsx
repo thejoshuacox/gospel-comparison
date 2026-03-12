@@ -30,7 +30,7 @@ export default async function ComparePage({ params, searchParams }: ComparePageP
       <header className="page-header compare-header">
         <div>
           <h1>{payload.event.title}</h1>
-          <p>{payload.event.section}</p>
+          <p>{payload.event.location ?? "Location not listed"}</p>
         </div>
         <TranslationSelect value={payload.translation} />
       </header>
